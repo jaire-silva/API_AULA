@@ -1,0 +1,54 @@
+# Python e Ambientes Virtuais
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.env.*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Dados temporários e arquivos de cache
+*.sqlite3
+*.db
+instance/
+.cache/
+*.tmp
+*.swp
+*.swo
+
+# Dependências instaladas localmente
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de Testes
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDEs e Ferramentas de Desenvolvimento
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Outros arquivos específicos do FastAPI
+# Exemplo: arquivos gerados por configurações específicas do projeto
+staticfiles/
+mediafiles/
